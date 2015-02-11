@@ -14,7 +14,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 body {
   background: url('../images/love birds.png') ;
   background-size: 100% 100%;
-  padding-top: 200px;
+  padding-top: 190px;
   padding-bottom: 70px;
   font-family: Microsoft YaHei;
 }
@@ -82,7 +82,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 500px;
+    max-width: 600px;
   }
 
   /* Remove the padding we set earlier */
