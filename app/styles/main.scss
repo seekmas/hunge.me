@@ -12,13 +12,17 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
 /* Space out content a bit */
 body {
-  background: url('../images/love birds.png') ;
+  background: url('../images/love birds.png') no-repeat;
   background-size: 100% 100%;
   padding-top: 190px;
   padding-bottom: 70px;
   font-family: Microsoft YaHei;
 }
 
+.pure-white {
+    background: #ffffff;
+    padding: 10px;
+}
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -30,6 +34,24 @@ body {
 .colorful {
     color: #F56097;
 }
+
+.logo {
+    margin-left: 20px;
+    background: url('../images/HunGe-Logo-v1.png');
+    background-size: 100% 100%;
+    width: 300px;
+    height: 60px;
+}
+
+.panel {
+    background:rgba(255, 255, 255, 0.5) none repeat scroll 0 0 !important;
+    filter:Alpha(opacity=50); background:#fff;
+}
+
+.panel-body {
+    position:relative;
+}
+
 
 .btn-joy {
     color: #FFF;
